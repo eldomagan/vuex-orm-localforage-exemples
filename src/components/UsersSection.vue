@@ -22,7 +22,7 @@ export default {
 
   methods: {
     add () {
-      User.insert({
+      User.$create({
         data: { name: '' }
       })
     }

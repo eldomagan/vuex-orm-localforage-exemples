@@ -47,10 +47,10 @@ export default {
 
   methods: {
     update (e) {
-      Todo.update({
+      Todo.dispatch('$update', {data: {
         id: this.todoId,
         user_id: e.target.value
-      })
+      }})
     }
   }
 }

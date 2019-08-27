@@ -17,6 +17,7 @@
 import data from '@/data'
 import store from '@/store'
 import Todo from '@/models/Todo'
+import User from '@/models/User'
 import AppHeader from './AppHeader'
 import AppDescription from './AppDescription'
 import UsersSection from './UsersSection'
@@ -40,12 +41,14 @@ export default {
     }
   },
 
-  created () {
-    // Here we are stubbing the initial data. In the real world, this
-    // should be the response from the API Backend.
-    const initialData = data
+  mounted () {
+    // Fetch data from indexeddb
+    User.$fetch()
+    Todo.$fetch()
 
-    Todo.insert({ data: initialData })
+    if (Todo.all().length  === 0) {
+      Todo.$create({ data: data })
+    }
   }
 }
 </script>

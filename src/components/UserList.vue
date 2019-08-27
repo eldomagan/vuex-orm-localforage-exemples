@@ -34,11 +34,14 @@ export default {
 
   methods: {
     update (user, name) {
-      user.$update({ name })
+      User.dispatch('$update', {data: {
+        id: user.id,
+        name
+      }})
     },
 
     destroy (user) {
-      user.$delete()
+      User.dispatch('$delete', user.id)
     }
   }
 }

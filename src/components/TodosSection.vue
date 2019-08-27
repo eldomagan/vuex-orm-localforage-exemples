@@ -22,7 +22,7 @@ export default {
 
   methods: {
     add () {
-      Todo.insert({
+      Todo.$create({
         data: { title: '' }
       })
     }

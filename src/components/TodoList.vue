@@ -42,21 +42,21 @@ export default {
 
   methods: {
     toggle (todo) {
-      Todo.dispatch('$update', {data: {
-        id: todo.id,
-        done: !todo.done
-      }})
+      Todo.$update({
+        where: todo.id,
+        data: { done: !todo.done }
+      })
     },
 
     update (todo, title) {
-      Todo.dispatch('$update', {data: {
-        id: todo.id,
-        title
-      }})
+      Todo.$update({
+        where: todo.id,
+        data: { title }
+      })
     },
 
     destroy (todo) {
-      Todo.dispatch('$delete', todo.id)
+      Todo.$delete(todo.id)
     }
   }
 }

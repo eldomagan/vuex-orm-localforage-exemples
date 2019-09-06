@@ -44,11 +44,11 @@ export default {
   mounted () {
     // Fetch data from indexeddb
     User.$fetch()
-    Todo.$fetch()
-
-    if (Todo.all().length  === 0) {
-      Todo.$create({ data: data })
-    }
+    Todo.$fetch().then(result => {
+      if (!result.todos || result.todos.length === 0) {
+        Todo.$create({ data })
+      }
+    })
   }
 }
 </script>

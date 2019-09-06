@@ -10,7 +10,7 @@
     "@vue/cli-plugin-eslint": "^3.9.2",
     "@vue/cli-service": "^3.9.3",
     "@vue/eslint-config-standard": "^4.0.0",
-    "@vuex-orm/core": "^0.32.1",
+    "@vuex-orm/core": "^0.32.2",
     "normalize.css": "^8.0.1",
     "postcss-css-variables": "^0.13.0",
     "postcss-import": "^12.0.1",
@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "vuex-orm": "^0.15.0",
-    "vuex-orm-localforage": "^0.1.5"
+    "vuex-orm-localforage": "^0.2.0"
   }
 }

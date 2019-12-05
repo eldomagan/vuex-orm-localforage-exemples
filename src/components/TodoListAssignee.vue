@@ -32,7 +32,7 @@ export default {
   },
 
   props: {
-    todoId: { type: Number, required: true }
+    todoId: { type: [Number, String], required: true }
   },
 
   computed: {
@@ -47,10 +47,10 @@ export default {
 
   methods: {
     update (e) {
-      Todo.dispatch('$update', {data: {
+      Todo.dispatch('$update', { data: {
         id: this.todoId,
         user_id: e.target.value
-      }})
+      } })
     }
   }
 }

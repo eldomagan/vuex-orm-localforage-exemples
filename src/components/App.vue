@@ -41,7 +41,7 @@ export default {
     }
   },
 
-  mounted () {
+  async mounted () {
     // Fetch data from indexeddb
     User.$fetch()
     Todo.$fetch().then(result => {

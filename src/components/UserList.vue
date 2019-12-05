@@ -28,7 +28,7 @@ export default {
 
   computed: {
     users () {
-      return User.query().with('todos').orderBy('id', 'desc').get()
+      return User.all()
     }
   },
 

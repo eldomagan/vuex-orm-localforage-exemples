@@ -36,7 +36,13 @@ export default {
 
   computed: {
     todos () {
-      return Todo.query().orderBy('id', 'desc').get()
+      return Todo.all()
+    },
+
+    todosWithUser () {
+      return Todo.query()
+        .with('assignee')
+        .all()
     }
   },
 

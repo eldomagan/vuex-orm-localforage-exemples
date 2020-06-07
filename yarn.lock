@@ -920,18 +920,6 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/lodash-es@^4.17.0":
-  version "4.17.3"
-  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.3.tgz#87eb0b3673b076b8ee655f1890260a136af09a2d"
-  integrity sha512-iHI0i7ZAL1qepz1Y7f3EKg/zUMDwDfTzitx+AlHhJJvXwenP682ZyGbgPSc5Ej3eEAKVbNWKFuwOadCj5vBbYQ==
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash@*":
-  version "4.14.144"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.144.tgz#12e57fc99064bce45e5ab3c8bc4783feb75eab8e"
-  integrity sha512-ogI4g9W5qIQQUhXAclq6zhqgqNUr7UlFaqDHbch7WLSLeeM/7d3CRaw7GLajxvyFvhJqw4Rpcz5bhoaYtIx6Tg==
-
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -1197,21 +1185,13 @@
   resolved "https://registry.yarnpkg.com/@vue/web-component-wrapper/-/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha512-Xn/+vdm9CjuC9p3Ae+lTClNutrVhsXpzxvoTXXtoys6kVRX9FkueSUAqSWAyZntmVLlR4DosBV4pH8y5Z/HbUw==
 
-"@vuex-orm/core@^0.32.1":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@vuex-orm/core/-/core-0.32.1.tgz#40d04aba5373b9ae833b4d7b42b2c07746a4f52f"
-  integrity sha512-zy3xj+6robrjNx5nJF73GlhAlcaespLrOByAQAILo/4q1IP542YUPAO+Kr1DH4n0iMV3vaj1275A741+y2djOg==
-  dependencies:
-    normalizr "^3.4.0"
-    vuex "^3.1.1"
-
-"@vuex-orm/core@^0.32.2":
-  version "0.32.5"
-  resolved "https://registry.yarnpkg.com/@vuex-orm/core/-/core-0.32.5.tgz#bd018551273a81d106524a1a8a6fbed251bc79bf"
-  integrity sha512-8RU9OF1GrjKaylTnkH21iYrYioOVFlDpH09KLWTF//xppOiClquWJVfUb30na61eGn4rcwbeoHST3T/9r8w6RQ==
+"@vuex-orm/core@^0.34.1":
+  version "0.34.1"
+  resolved "https://registry.yarnpkg.com/@vuex-orm/core/-/core-0.34.1.tgz#2b096324d0c1151ab5ab3a40c174e8aa901c1c8e"
+  integrity sha512-AamNIvLuetNGVJ4vmjUoBHnS0Es4yj/AoxhTbinQ5OM+5qpijWjMHa1sCwlVNWRUuZp3fQ4NDSx5fKPTbArfGg==
   dependencies:
     normalizr "^3.4.1"
-    vuex "^3.1.1"
+    vuex "^3.1.2"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -4999,7 +4979,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.17.15, lodash-es@^4.17.4:
+lodash-es@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
   integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
@@ -5577,15 +5557,10 @@ normalize.css@^8.0.1:
   resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
   integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
-normalizr@^3.2.4, normalizr@^3.4.1:
+normalizr@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/normalizr/-/normalizr-3.4.1.tgz#cf4f8ac7a4a0dd7fe504b77cbe9dd533cb3e45b5"
   integrity sha512-gei+tJucERU8vYN6TFQL2k5YMLX2Yh7nlylKMJC65+Uu/LS3xQCDJc8cies72aHouycKYyVgcnyLRbaJsigXKw==
-
-normalizr@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/normalizr/-/normalizr-3.4.0.tgz#fe79fd77768e0ae99944a8c35cbdb58521ab5d34"
-  integrity sha512-0dQLKpvsSb2f+vZwj78L855OMn9aeMQ0dQhduRqX3GkJh+k6rN9kcftxBV/VkW1n4q9OuV6F43Angn+pNbjg9w==
 
 npm-bundled@^1.0.1:
   version "1.0.6"
@@ -8081,6 +8056,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
+uuid@^3.3.3:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -8162,36 +8142,30 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.5.13, vue@^2.6.10:
+vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
-vuex-orm-localforage@^0.2.0:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/vuex-orm-localforage/-/vuex-orm-localforage-0.2.3.tgz#54be8d0a3d14c754714e2b0a3cc469e10a8c22f2"
-  integrity sha512-QUvZalu6oZ3qTW9gttyWUEtBPMZfzNsEKX84lqFJCE+M5bsKAg2B5vMXYOGN3XGH3rBIxauFWlzh25S1YNomWQ==
+vuex-orm-localforage@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/vuex-orm-localforage/-/vuex-orm-localforage-0.2.4.tgz#70e06eaf130564297728605168a2af5ad50bf7d1"
+  integrity sha512-7LL39ljwKEqSNwU3moHQy5hRMQ6I7uIm94lmGvJe9p7qqtRnAENMhEAVDZ0v2Mke5u392QBSkeM4Bw5p3aZIGw==
   dependencies:
     "@babel/preset-env" "^7.5.5"
-    "@vuex-orm/core" "^0.32.1"
+    "@vuex-orm/core" "^0.34.1"
     localforage "^1.7.3"
     lodash-es "^4.17.15"
 
-vuex-orm@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/vuex-orm/-/vuex-orm-0.15.0.tgz#5d199a2ef03e5c9e3111bf55907391f86d53c0c4"
-  integrity sha512-BmTOWaswbQ1sLowG1z9PRC5RMCvMxtrltn8NXD63ji6VJufjOGekBzSXqQJkQTbiE8/6X9oSo5rFIDhV+gUL1g==
-  dependencies:
-    "@types/lodash-es" "^4.17.0"
-    lodash-es "^4.17.4"
-    normalizr "^3.2.4"
-    vue "^2.5.13"
-    vuex "^3.0.1"
-
-vuex@^3.0.1, vuex@^3.1.1:
+vuex@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.1.1.tgz#0c264bfe30cdbccf96ab9db3177d211828a5910e"
   integrity sha512-ER5moSbLZuNSMBFnEBVGhQ1uCBNJslH9W/Dw2W7GZN23UQA69uapP5GTT9Vm8Trc0PzBSVt6LzF3hGjmv41xcg==
+
+vuex@^3.1.2:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.4.0.tgz#20cc086062d750769fce1febb34e7fceeaebde45"
+  integrity sha512-ajtqwEW/QhnrBZQsZxCLHThZZaa+Db45c92Asf46ZDXu6uHXgbfVuBaJ4gzD2r4UX0oMJHstFwd2r2HM4l8umg==
 
 watchpack@^1.5.0:
   version "1.6.0"
@@ -8353,9 +8327,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"

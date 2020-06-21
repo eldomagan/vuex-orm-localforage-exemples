@@ -62,7 +62,7 @@ export default {
     },
 
     destroy (todo) {
-      Todo.$delete(todo.id)
+      Todo.$delete((t) => t.id === todo.id)
     }
   }
 }

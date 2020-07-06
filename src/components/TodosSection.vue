@@ -3,7 +3,10 @@
     <div class="container">
       <div class="header">
         <h2 class="title">TODOS</h2>
-        <button class="button" @click="add">ADD TODO</button>
+        <div>
+          <button class="button" @click="reset">RESET</button>
+          <button class="button" @click="add">ADD TODO</button>
+        </div>
       </div>
 
       <TodoList />
@@ -12,6 +15,7 @@
 </template>
 
 <script>
+import data from '@/data'
 import Todo from '@/models/Todo'
 import TodoList from './TodoList'
 
@@ -25,6 +29,10 @@ export default {
       Todo.$create({
         data: { title: '' }
       })
+    },
+
+    reset () {
+      Todo.$replace({ data })
     }
   }
 }

@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "uuid": "^3.3.3",
-    "vuex-orm-localforage": "^0.3.0"
+    "vuex-orm-localforage": "^0.3.2"
   }
 }
